@@ -1,6 +1,8 @@
 # KiranaMitra
 # 🛒 KiranaMitra – AI Shop Assistant
 
+<img width="299" height="168" alt="image" src="https://github.com/user-attachments/assets/e53a3932-5064-4b7f-9eb5-c9ae2f35a4a2" />
+
 **Description:**  
 KiranaMitra is a Streamlit-based hackathon app that lets users order items from a virtual Kirana shop via typing or voice. It generates a PDF invoice automatically.
 
@@ -13,7 +15,11 @@ KiranaMitra is a Streamlit-based hackathon app that lets users order items from 
 **Inventory:**
 - Preloaded in `inventory.csv`
 
-**Setup Instructions:**
-1. Create a Python virtual environment:
-   ```bash
-   python -m venv venv
+🛠️ Tech Stack
+
+- **Frontend & App:** Streamlit
+- **AI APIs:** OpenAI GPT-4o mini, Whisper
+- **Inventory Management:** CSV-based lookup
+- **PDF Generation:** ReportLab
+- **Audio Processing:** SoundDevice, SciPy
+
